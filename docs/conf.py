@@ -274,7 +274,10 @@ versionwarning_messages = {
         'This document is linked to the most up-to-date release for convenience. '
         'For the `main` branch documentation, see <a href="/en/main/">here</a>.'
     ),
+    "main": (
+        'Hi is this working?'
+    )
 }
 # Show warning at top of page
-#versionwarning_body_selector = "div.document"
+versionwarning_body_selector = 'div[itemprop="articleBody"]'
 #versionwarning_banner_title = ""
