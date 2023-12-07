@@ -276,5 +276,5 @@ versionwarning_messages = {
     ),
 }
 # Show warning at top of page
-versionwarning_body_selector = "div.document"
-versionwarning_banner_title = ""
+#versionwarning_body_selector = "div.document"
+#versionwarning_banner_title = ""
