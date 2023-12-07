@@ -13,3 +13,4 @@ dependencies:
     - docutils
     - pip:
         - readthedocs-sphinx-search
+        - sphinx-version-warning

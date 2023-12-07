@@ -44,6 +44,7 @@ extensions = [
     'sphinx.ext.autosectionlabel',
     'sphinx.ext.extlinks',
     'sphinx_search.extension',
+    'versionwarning.extension'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -262,3 +263,18 @@ intersphinx_mapping = {'python' : ('https://docs.python.org/', None)}
 autosectionlabel_prefix_document = True
 
 extlinks = { }
+
+# sphinx-version-warning config
+versionwarning_messages = {
+    "latest": (
+        'This document is linked to the most up-to-date release for convenience. '
+        'For the `main` branch documentation, see <a href="/en/main/">here</a>.'
+    ),
+    "stable": (
+        'This document is linked to the most up-to-date release for convenience. '
+        'For the `main` branch documentation, see <a href="/en/main/">here</a>.'
+    ),
+}
+# Show warning at top of page
+versionwarning_body_selector = "div.document"
+versionwarning_banner_title = ""
